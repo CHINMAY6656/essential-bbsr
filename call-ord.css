@@ -1,0 +1,36 @@
+body{
+    background-color: #10375c;
+}
+a{
+    text-decoration: none;
+}
+.header{   
+    margin: 2rem 3rem;
+}
+.head{
+    font-size: 5rem;
+    color: #f4ff61;
+}
+.no{
+    font-size: 3rem;
+    color: #f4ff61;
+    text-align: right;
+}
+.info-l{
+    font-size: 2rem;
+    color: #f4ff61;
+}
+.info-r{
+    font-size: 1rem;
+    color: #f4ff61;
+    text-align: right;
+}
+@media(max-width: 900px){
+    .no{
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .info-r{
+        text-align: center;
+    }
+}
